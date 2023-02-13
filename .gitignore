@@ -1,0 +1,6 @@
+# dotenv enviroment variable files
+.env
+#Dependency directory
+node_modules
+#Dependency lock file
+package-lock.json
