@@ -1,6 +1,6 @@
 const server = require('http').createServer();
 const io = require('socket.io')(server);
-const SOCKET_PORT = process.env.SOCKET_PORT || 4001;
+const SOCKET_PORT = process.env.SOCKET_PORT || 8080;
 server.listen(SOCKET_PORT, function () {
     console.log('Server listening socket at port', SOCKET_PORT);
 });
